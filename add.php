@@ -35,7 +35,7 @@
 		    				<textarea name="text" class="form-control" placeholder="Текст записи" style="min-height: 250px; max-height: 400px; max-width: 750px;" required=""></textarea>
 		    			</div>
 		    			<button type="submit" class="btn btn-success">Добавить</button>
-		    			<a href="http://myblog.ru" class="btn btn-default">Отмена</a>
+		    			<a href="<?php echo "http://" . $_SERVER['SERVER_NAME']; ?>" class="btn btn-default">Отмена</a>
 		    		</form>	
 		    	</div> 
 	    	</div>  		
